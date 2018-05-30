@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+         android:background="#4da79e">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add New Contact"
+            android:fontFamily="cursive"
+            android:textSize="45dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:id="@+id/ANC"/>
+        <EditText
+            android:layout_width="300dp"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:text="Contact Name"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/CN"/>
+
+        <EditText
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Contact Number"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/CNN"/>
+
+        <EditText
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="300dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:id="@+id/EA"/>
+
+        <Button
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/save"/>
+    </LinearLayout>
+
+
+
